@@ -1,0 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Display:wght@400;800&display=swap");
+
+.brand {
+  margin: 1rem 0;
+  text-align: center;
+}
+.brand > h1 {
+  font-family: "Big Shoulders Stencil Display", cursive;
+  font-weight: 800;
+  letter-spacing: 3px;
+}
+
+@media (max-width: 490px) {
+  .brand {
+    display: none;
+  }
+}

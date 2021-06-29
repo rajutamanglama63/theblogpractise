@@ -1,0 +1,33 @@
+.container {
+  margin: 0 auto;
+  width: 90%;
+}
+.home_content {
+  display: flex;
+}
+.left {
+  width: 70%;
+}
+/* .middle {
+  flex: 1;
+} */
+.right {
+  width: 30%;
+  margin-left: 1rem;
+}
+.paragraph {
+  padding: 1rem 0;
+}
+
+@media (max-width: 768px) {
+  .left {
+    width: 100%;
+  }
+  .home_content {
+    flex-direction: column;
+  }
+  .right {
+    margin-bottom: 1rem;
+    width: 50%;
+  }
+}
